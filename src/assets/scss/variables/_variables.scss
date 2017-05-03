@@ -1,0 +1,46 @@
+
+// bg/text/shadow/border colors
+$white: #fff;
+$black: #000;
+
+$baseColorText: #78909C;
+$lightGray: #C7C7CC;
+$borderTaskColor: #CFD8DC;
+$borderSwimColor: #B0BEC5;
+$colorTooltip: #FAFAFA;
+
+$colorAmountTask: #acacac;
+
+$basePadding: 5px;
+$baseMargin: 10px;
+
+
+// base fonts parameters
+$fontSizeBase: 16px;
+$fontFamily: 'Roboto', sans-serif;
+
+$fontWeightLite:    100;
+$fontWeightRegular: 400;
+$fontWeightBold:    600;
+
+$resetLineHeight: 1;
+
+// decoration text
+$textUnderline: underline;
+$textDecorNone: none;
+
+$textLower: lowercase;
+$textUpper: uppercase;
+
+$textCenter: center;
+$textLeft: left;
+$textRight: right;
+
+
+$mrgCenter: 0 auto;
+
+
+
+$white-color: #fff;
+$btn-confirm-border-color: #1D84DE;
+$btn-warn-border-color: #BD3336;

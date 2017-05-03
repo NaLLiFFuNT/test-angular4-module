@@ -1,0 +1,9 @@
+<ng-content></ng-content>
+<svg *ngIf="pending" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 20 20" style="white-space: pre;">
+    <style>
+        @keyframes dinamic_t { 0% { transform: translate(10px,10px) rotate(0deg); animation-timing-function: cubic-bezier(0.553289,0.254604,0.514412,0.766855); } 100% { transform: translate(10px,10px) rotate(360deg); } }
+        @keyframes dinamic_da { 0% { stroke-dasharray: 10px 60px; animation-timing-function: cubic-bezier(0,0,0.58,1); } 16% { stroke-dasharray: 10px 60px; animation-timing-function: cubic-bezier(0.42,0,0.701572,1.00107); } 52% { stroke-dasharray: 20px 40px; animation-timing-function: cubic-bezier(0.893088,-0.01311,0.249236,0.617228); } 72% { stroke-dasharray: 10px 60px; animation-timing-function: cubic-bezier(0.650029,0.451185,1,1); } 100% { stroke-dasharray: 10px 60px; } }
+    </style>
+    <ellipse id="static" rx="9" ry="9" fill="none" stroke="rgba(255, 255, 255, 0.25)" fill-rule="evenodd" stroke-width="2" stroke-dashoffset="0" stroke-opacity="1" transform="translate(10,10.0001)"></ellipse>
+    <ellipse id="dinamic" rx="9" ry="9" fill="none" stroke="#ffffff" fill-rule="evenodd" stroke-width="2" stroke-dashoffset="28" stroke-opacity="1" stroke-dasharray="10 60" stroke-linecap="round" transform="translate(10,10)" style="animation: dinamic_t 1s linear infinite both, dinamic_da 1s linear infinite both;"></ellipse>
+</svg>

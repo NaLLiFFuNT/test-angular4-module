@@ -1,0 +1,56 @@
+@import "../../assets/scss/variables/mixins";
+
+:host {
+  @include default-btn;
+  &.btn_warn{
+    @include warn-btn;
+  }
+  &.btn_primary {
+    @include confirm-btn;
+  }
+  &.btn_text {
+    @include text-btn;
+    &.loader {
+      svg {
+        mix-blend-mode: difference;
+        ellipse {
+          mix-blend-mode: difference;
+        }
+      }
+    }
+  }
+  &.btn_secondary {
+    @include secondary-btn;
+    &.loader {
+      svg {
+        mix-blend-mode: difference;
+      }
+    }
+  }
+  &.disabled {
+    cursor: not-allowed;
+    background: #f3f6f8;
+    color: #ababb1;
+    border: 1px solid #cfd8dc;
+  }
+  &.loader {
+    color: transparent;
+
+    svg {
+      display: block;
+      margin: 0 auto;
+      width: 20px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+  &:disabled.loader {
+    color: transparent;
+    svg {
+      mix-blend-mode: difference;
+    }
+  }
+}
