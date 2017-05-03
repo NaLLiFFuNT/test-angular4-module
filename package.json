@@ -27,7 +27,7 @@
     "url": "https://github.com/atlaz-dev/atlaz-web-gui/issues"
   },
   "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/atlaz-web-gui.d.ts",
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",

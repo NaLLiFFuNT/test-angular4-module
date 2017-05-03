@@ -17,7 +17,7 @@
     "url": "https://github.com/atlaz-dev/atlaz-web-gui/issues"
   },
   "module": "index.js",
-  "typings": "index.d.ts",
+  "typings": "atlaz-web-gui.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
