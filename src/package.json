@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/atlaz-dev/atlaz-web-gui/issues"
   },
-  "module": "index.js",
+  "main": "index.js",
   "typings": "atlaz-web-gui.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
